@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style: none;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
  /* The Css for header start here */
  header{
     position: sticky;
@@ -62,10 +65,6 @@ color: white;
 #logo-image{
 width: 350px;
 }
-img{
-    border: 1px solid red;
-    
-}
 
 /* Here Starts the Media Query for the Header Part or the Navbar */
 
@@ -90,6 +89,9 @@ img{
     .icon-container{
    width: 100%;
    padding: 5px;
+   height:100dvh;
+   align-items: start;
+   display: none;
 
     }
     .icon-mini-container{
@@ -98,7 +100,7 @@ img{
         width: 100%;
         padding: 5px;
     }
-    i{
+    .ifor{
         width: 100%;
         text-align: center;
         border-radius: 5px;

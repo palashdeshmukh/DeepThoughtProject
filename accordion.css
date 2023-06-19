@@ -1,0 +1,20 @@
+#accordion-main-container{
+border: 1px solid black;
+}
+
+.accordion-text-box{
+    border: 1px solid black;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+
+
+}
+
+#accordion-box1{
+
+}
+
+#accordion-box2{
+
+}
