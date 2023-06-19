@@ -105,6 +105,13 @@
         <aside class="asidebar" id="asidebarright"></aside>
         </div>
     
-    <script src="./script.js"></script>
+    <script src="./script.js">
+        fetch("information.json")
+        .then(Response=>Response.json())
+        .then(data=>{
+            console.log(data.title)
+            document.querySelector("#asidebarleft").innerHTML=data.title;
+        })
+    </script>
 </body>
 </html>
