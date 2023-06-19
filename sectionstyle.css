@@ -68,7 +68,7 @@
     display: flex;
     flex-direction:column;
     flex-wrap: nowrap;
-    width: 600px;
+    width: 680px;
     height: 800px;
     border-radius:20px;
     box-shadow:0px 0px 5px 0px;
@@ -97,6 +97,31 @@ align-items: center;
     padding-bottom: 8px;
     border-radius: 50%;
     cursor: pointer;
+}
+ul{
+    width: 100%;
+    background-color: whitesmoke;
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+li{
+    width: auto;
+    padding: 10px;
+ 
+    font-weight: 300;
+    color: gray;
+    box-shadow: 0px 0 1px 0 gray;
+    text-align: center;
+    cursor: pointer;
+
+}
+#content-nav #content-nav-top #content-nav-bottom{
+
+    width: 100%;
+}
+#content-nav{
+    box-shadow:0px 0px 4px 0px;
 }
 .parabox{
     padding: 30px 20px;
