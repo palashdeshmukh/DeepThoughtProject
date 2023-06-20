@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
 }
 body::-webkit-scrollbar{
     display: none;
@@ -12,7 +10,7 @@ body::-webkit-scrollbar{
  header{
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     box-shadow: 0px 0px 10px 0px;
     background-color: whitesmoke;
 
@@ -26,13 +24,14 @@ body::-webkit-scrollbar{
     display: none;
 }
 .logo-container{
-    padding-left: 60px;
     width:100%;
+    padding-left: 40px;
+
 
 }
 .icon-container{
     width: 100%;
-    padding-right: 60px;
+    padding-right: 40px;
     display: flex;
     justify-content: end;
     flex-wrap: nowrap;
@@ -91,7 +90,6 @@ width: 350px;
    padding: 5px;
    height:100dvh;
    align-items: start;
-   display: none;
 
     }
     .icon-mini-container{
