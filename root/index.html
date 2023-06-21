@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./sectionstyle.css">
-    <link rel="stylesheet" href="./accordion.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sectionstyle.css">
+    <link rel="stylesheet" href="./css/accordion.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 </head>
 <body>
@@ -57,25 +57,59 @@
          <section class="section section-flex">
 
             <div class="container-min-box">
-                <nav class="container-navbar"><h2>Technical Project Management</h2> <button><img class="image-i" src="./Images/infoi.png"/></button> </nav>
+                <nav class="container-navbar"><h2>Technical Project Management</h2> <button><img class="image-i" src="./images/infoi.png"/></button> </nav>
                 <div class="parabox"><p><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p></div>
                 <div id="frame"><iframe src="https://www.youtube.com/embed/TiMRwri1xJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
             </div>
+
+         <!-- This container is for the second Box in th main container which container the data of  threadbuild -->
             <div class="container-min-box">
-                <nav class="container-navbar"><h2>Threabuild</h2> <button><img class="image-i" src="./Images/infoi.png"/></button> </nav>
+                <nav class="container-navbar"><h2>Threabuild</h2> <button><img class="image-i" src="./images/infoi.png"/></button> </nav>
                 <div class="parabox"><p><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p></div>
-                <div id="Stucure-container">Write the content here</div>
+                <div id="threadbuild-main-container">
+                    <div class="thread-bulid-contaier thread-bulid-contaier-1 "></div>
+                        
+                    <div class="threadbuild-sub-main-wrapper">
+                    <div class="theardbuild-sub-container thread-one">
+                        <div class="sub-thread-inner-1 sub-thread-inner">Sub thread-one</div>
+                        <textarea placeholder="Enter the here"></textarea>
+                    </div>
+                    <div class="theardbuil-sub-container thread-one">
+                        <div class="sub-thread-inner-1 sub-thread-inner">Sub thread-one</div>
+                        <textarea placeholder="Enter the here"></textarea>
+                    </div>
+                </div>
+                <div class="thread-bulid-contaier thread-bulid-contaier-2 ">
+                </div>
+                <div class="thread-bulid-contaier thread-bulid-contaier-3 ">
+                    <div class="summary-container">
+                        <div class="sub-thread-inner-1 sub-thread-inner">summary</div>
+                        <textarea placeholder="Enter the here"></textarea>
+                    </div>
+                </div>
+
+
+
+
+
+
+     
+                   </div>
+
             </div>
+  <!-- This Threadbuild Container Ends Here -->
+
          </section>
          <section class="section section-flex">
             <div class="container-min-box">
-                <nav class="container-navbar"><h2>Structure your Pointers</h2> <button><img class="image-i" src="./Images/infoi.png"/></button> </nav>
+                <nav class="container-navbar"><h2>Structure your Pointers</h2> <button><img class="image-i" src="./images/infoi.png"/></button> </nav>
                 <div class="parabox"><p><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p></div>
                 <div id="Stucure-container">
                     <div class="Strcture-box-1">
                         <label for="text-here">Title</label><br>
-                        <input type="text" id="text-here" name="text-here" required>
+                        <input type="text" id="text-here" name="text-here" required/>
+                   
                     </div>
                     <div class="Strcture-box-2">
                         <label for="content">Content</label><br>
@@ -95,9 +129,9 @@
                             </div>
                             <div id="content-nav-bottom">
                                 <ul>
-                                    <li class="li-bottom"><img src="./Images/Iconleft.png" alt="left"></li>
-                                    <li class="li-bottom"><img src="./Images/iconright.png" alt="right"></li>
-                                    <li class="li-bottom"><img src="./Images/preiew.png" alt="resize"></li>
+                                    <li class="li-bottom"><img src="./images/Iconleft.png" alt="left"></li>
+                                    <li class="li-bottom"><img src="./images/iconright.png" alt="right"></li>
+                                    <li class="li-bottom"><img src="./images/preiew.png" alt="resize"></li>
                                     <li class="li-bottom">Paragraph</li>
                                     <li class="for-last" class="li-bottom"><i style="font-size: 20px;" class="bi bi-three-dots"></i></li>
                                 </ul>
@@ -110,7 +144,7 @@
                 </div>
 
             <div class="container-min-box">
-                <nav class="container-navbar"><h2>4SA Method</h2> <button><img class="image-i" src="./Images/infoi.png"/></button> </nav>
+                <nav class="container-navbar"><h2>4SA Method</h2> <button><img class="image-i" src="./images/infoi.png"/></button> </nav>
                 <div class="parabox"><p><b>Description:</b>Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p></div>
                 <div id="Stucure-container">
                 <div id="accordion-main-container">
@@ -130,12 +164,12 @@
         </aside>
 </div>
         <footer id="footer-container">
-            <div class="footer-box footer-box-1"><img src="./Images/question-mark .png" alt="question-mark"></div>
-            <div class="footer-box footer-box-1"><img src="./Images/meeting 1.png" alt="meeting"></div>
-            <div class="footer-box footer-box-1"><img id="schedule" src="./Images/schedule .png" alt="schedule"></div>
+            <div class="footer-box footer-box-1"><img src="./images/question-mark .png" alt="question-mark"></div>
+            <div class="footer-box footer-box-1"><img src="./images/meeting 1.png" alt="meeting"></div>
+            <div class="footer-box footer-box-1"><img id="schedulwwe" src="./images/schedule .png" alt="schedule"></div>
         </footer>
 
-    <script src="./script.js">
+    <script src="./scripts/script.js">
         fetch("information.json")
         .then(Response=>Response.json())
         .then(data=>{

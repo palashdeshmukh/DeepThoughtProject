@@ -291,29 +291,38 @@ textarea{
 
 /* Now i will write the code for the footer section here */
 #footer-container{
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 20px;
+    width: 100%;
 
 }
 .footer-box{
-    background-color: #0029FF;
-    text-align: center;
-    height: 85px;
     width: 100%;
-    max-width: 85px;
-    border-radius: 50%;
+    justify-content:end;
+    display: flex;
+    padding-right: 20px;
 
 
 
 }
 .footer-box img{
-    height: 50%;
-    width: 50%;
-    margin-top: 22px;
+   width: 75px;
+   height: 75px;
+    background-color:#0029FF;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 #schedule{
     margin-left: 10px;
+}
+/* Media query for footer section */
+@media (max-width:1068px){
+    #footer-container{
+        display: flex;
+        flex-wrap:nowrap;
+    }
+    .footer-box{
+        justify-content:center ;
+    }
 }
