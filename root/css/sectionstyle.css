@@ -316,6 +316,98 @@ textarea{
 #schedule{
     margin-left: 10px;
 }
+
+
+/* Now i m writing for styling for the last threadbuild box */
+
+#threadbuild-main-container{
+    width: 100%;
+    padding: 20px;
+    
+}
+.thread-bulid-contaier{
+    border-radius: 20px;
+}
+.threadbuild-sub-main-wrapper{
+    display: flex;
+  
+    justify-content: space-evenly;
+
+}
+.theardbuild-sub-container{
+   border-radius: 20px;
+   background-color:lightgrey;
+   width: 250px;
+   display: flex;
+   border: 1px solid lightgray;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   
+}
+.sub-thread-inner-1{
+    font-size: 20px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: none;
+
+
+}
+.sub-thread-text{
+    padding: 10px;
+    height: 80px;
+    font-size: 14px;
+    border-radius: 20px;
+
+
+}
+.thread-bulid-contaier-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.icon-box-container{
+width: 100%;
+
+}
+.select-button-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.icon-box-container ul{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.icon-box-container ul li{
+    float:right;
+}
+.thread-bulid-contaier-2 {
+    margin-top: 30px;
+}
+.thread-bulid-contaier-3{
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.sub-thread-2{
+    border-radius: 20px;
+    padding: 20px;
+}
+select{
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px 0px;
+}
+option{
+   
+}
 /* Media query for footer section */
 @media (max-width:1068px){
     #footer-container{
