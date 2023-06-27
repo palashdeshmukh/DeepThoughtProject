@@ -1,104 +1,111 @@
-#wrapper-section-container{
+#wrapper-section-container {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
 }
-.asidebar{
-    width:10%;
 
-
+.asidebar {
+    width: 10%;
 }
-#section-main-contentbox{
+
+#section-main-contentbox {
     width: 80%;
+}
 
+.text-section {
+    /* Empty */
+}
 
-}
-.section{
-    width: 100%;
-    padding: 15px;
-}
-.text-section{
-}
-#text-box1{
+#text-box1 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
+}
 
-}
-#text-box1 h1{
+#text-box1 h1 {
     font-size: 45px;
-    color:#0029FF;;
+    color: #0029FF;
 }
-#text-box1 button{
-    font-size:18px;
+
+#text-box1 button {
+    font-size: 18px;
     padding: 20px;
     border-radius: 10px;
-    font-weight:bold;
+    font-weight: bold;
     border: none;
     color: white;
-    background-color:#0029FF;;
+    background-color: #0029FF;
 }
 
-#text-box2{
-    background-color:  #E9ECEF;
+#text-box2 {
+    background-color: #E9ECEF;
     padding: 20px;
 }
-#text-box2 h4{
-    font-size:35px;
+
+#text-box2 h4 {
+    font-size: 35px;
     margin-bottom: 10px;
 }
-#text-box2 p{
+
+#text-box2 p {
     font-size: 25px;
 }
 
-#Stucure-container{
+#Stucure-container {
     padding: 20px;
 }
 
-.myinput-1{
+.myinput-1 {
     border: none;
     box-shadow: 0px 0px 3px 0px;
 }
-.section-flex{
+
+.section-flex {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     column-gap: 20px;
     flex-wrap: nowrap;
     flex-direction: row;
 }
-.container-min-box{
+
+.container-min-box {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
     max-width: 600px;
     height: 740px;
-    border-radius:20px;
-    box-shadow:0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px;
 }
-#main-content-box{
+
+#main-content-box {
     width: 100%;
 }
-#content-nav{
+
+#content-nav {
     width: 100%;
 }
-.container-navbar{
+
+.container-navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-text-align: center;
-align-items: center;
+    text-align: center;
+    align-items: center;
     padding: 20px;
     color: white;
 }
-.container-navbar h2{
+
+.container-navbar h2 {
     width: 100%;
 }
-.container-navbar button{
+
+.container-navbar button {
     width: 40px;
     display: flex;
     justify-content: center;
@@ -108,14 +115,15 @@ align-items: center;
     border-radius: 50%;
     cursor: pointer;
 }
-ul{
+
+ul {
     width: 100%;
     background-color: whitesmoke;
-    display:grid;
-    grid-template-columns: repeat(8,1fr);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
 }
 
-li{
+li {
     width: auto;
     padding: 10px;
     font-weight: 300;
@@ -123,54 +131,57 @@ li{
     text-align: center;
     cursor: pointer;
     list-style: none;
-   
-
 }
-.li-bottom{
+
+.li-bottom {
     padding-top: 15px;
     padding-bottom: 5px;
 }
-#content-nav #content-nav-top #content-nav-bottom{
 
+#content-nav #content-nav-top #content-nav-bottom {
     width: 100%;
 }
-#content-nav-top{
+
+#content-nav-top {
+    /* Empty */
 }
-#content-nav{
-    box-shadow:0px 0px 4px 0px;
+
+#content-nav {
+    box-shadow: 0px 0px 4px 0px;
     margin-top: 20px;
 }
-.parabox{
+
+.parabox {
     padding: 30px 20px;
     font-size: 20px;
     line-height: 25px;
 }
-#frame{
+
+#frame {
     width: 100%;
     height: 400px;
     padding: 20px;
 }
-iframe{
+
+iframe {
     width: 100%;
     height: 100%;
 }
-label{
+
+label {
     font-size: 24px;
     font-weight: bold;
     margin: 20px 0px 30px 0px;
-
 }
 
-input{
-    width: 100%;
-}
-input[type="text"]{
+input[type="text"] {
     height: 60px;
     font-size: 22px;
     margin: 20px 0px 30px 0px;
     text-transform: capitalize;
 }
-textarea{
+
+textarea {
     width: 100%;
     height: 160px;
     border: none;
@@ -179,101 +190,100 @@ textarea{
     resize: none;
     text-transform: capitalize;
 }
-.image-i{
+
+.image-i {
     height: 20px;
     display: block;
     position: relative;
-    margin-top:5px;
+    margin-top: 5px;
 }
 
-/* Media query fo the boxes is Here */
-@media (max-width:1568px){
-    .section-flex{
-
-        justify-content:center;
+@media (max-width: 1568px) {
+    .section-flex {
+        justify-content: center;
         align-items: center;
         row-gap: 40px;
         flex-wrap: nowrap;
-        flex-direction:column;
+        flex-direction: column;
     }
-
-
 }
-@media (max-width:768px){
-    ul{
-        grid-template-columns: repeat(4,1fr);
+
+@media (max-width: 768px) {
+    ul {
+        grid-template-columns: repeat(4, 1fr);
         padding: 0;
     }
-    .for-last{
+    .for-last {
         display: none;
     }
 }
 
-
-/* Now i m gone write the code for the aside bar */
-.asidebar{
+.asidebar {
     z-index: 1;
 }
-#asidebar-container-main{
+
+#asidebar-container-main {
     width: 180px;
     height: 870px;
     box-shadow: 0px 0px 4px 0px;
-
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.aside-text-box1{
+
+.aside-text-box1 {
     background-color: black;
     color: white;
-    font-size:0.0001em;
-    text-indent:-9999px;
+    font-size: 0.0001em;
+    text-indent: -9999px;
     font-size: 22px;
     height: 80px;
     line-height: 80px;
     padding-left: 20px;
     border-top-right-radius: 20px;
 }
-.aside-text-box2{
+
+.aside-text-box2 {
     border-bottom-right-radius: 20px;
-    font-size:0.0001em;
-    text-indent:-9999px;
-
-
+    font-size: 0.0001em;
+    text-indent: -9999px;
 }
 
-#first-ul{
+#first-ul {
     width: 100%;
-    display:inline;
+    display: inline;
 }
-.first-li{
+
+.first-li {
     width: 100%;
     list-style: circle;
     text-align: left;
     font-size: 22px;
     color: black;
 }
-/* The code for the aside box2 start here */
 
-.asiderbar2-container{
-    width: 180px;
+.asiderbar2-container {
+    width: 580px;
     position: absolute;
     right: 0;
     height: 500px;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
     box-shadow: 0px 0px 5px 0px;
+    background-color: red;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.inner-box2{
+
+.inner-box2 {
     width: 100%;
     max-width: 120px;
-    border: 1px solid black;
-    background-color:whitesmoke;
+    border: 5px solid black;
+    background-color: whitesmoke;
+    background-color: red;
 }
-.inner-box1{
+
+.inner-box1 {
     width: 100%;
     max-width: 80px;
     border: 1px solid black;
@@ -281,135 +291,130 @@ textarea{
     color: white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-
-
 }
-.inner-box1 h1{
+
+.inner-box1 h1 {
     border: 1px solid red;
     font-size: 25px;
     word-wrap: break-word;
     height: 500px;
-    
 }
 
-/* The code for the aside box2 start here */
-
-/* Now i will write the code for the footer section here */
-#footer-container{
+#footer-container {
     width: 100%;
-
 }
-.footer-box{
+
+.footer-box {
     width: 100%;
-    justify-content:end;
+    justify-content: end;
     display: flex;
     padding-right: 20px;
-
-
-
 }
-.footer-box img{
-   width: 75px;
-   height: 75px;
-    background-color:#0029FF;
+
+.footer-box img {
+    width: 75px;
+    height: 75px;
+    background-color: #0029FF;
     border-radius: 50%;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
-#schedule{
+
+#schedule {
     margin-left: 10px;
 }
 
-
-/* Now i m writing for styling for the last threadbuild box */
-
-#threadbuild-main-container{
+#threadbuild-main-container {
     width: 100%;
     padding: 20px;
-    
 }
-.thread-bulid-contaier{
+
+.thread-bulid-contaier {
     border-radius: 20px;
 }
-.threadbuild-sub-main-wrapper{
-    display: flex;
-  
-    justify-content: space-between;
 
+.threadbuild-sub-main-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
-.theardbuild-sub-container{
-   border-radius: 20px;
-   background-color:whitesmoke;
-   width: 250px;
-   display: flex;
-   border: 1px solid whitesmoke;
-   flex-direction: column;
-   flex-wrap: nowrap;
-   
+
+.theardbuild-sub-container {
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 250px;
+    display: flex;
+    border: 1px solid whitesmoke;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
-.sub-thread-inner-1{
+
+.sub-thread-inner-1 {
     font-size: 20px;
     padding: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom: none;
-
-
 }
-.sub-thread-text{
+
+.sub-thread-text {
     padding: 10px;
     height: 80px;
     font-size: 14px;
     border-radius: 20px;
-
-
 }
-.thread-bulid-contaier-2{
+
+.thread-bulid-contaier-2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.icon-box-container{
-width: 100%;
 
+.icon-box-container {
+    width: 100%;
 }
-.select-button-container{
+
+.select-button-container {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
-.icon-box-container ul{
+
+.icon-box-container ul {
     width: 100%;
     display: flex;
     justify-content: end;
 }
-.icon-box-container ul li{
-    float:right;
+
+.icon-box-container ul li {
+    float: right;
 }
+
 .thread-bulid-contaier-2 {
     margin-top: 30px;
 }
-.summary-container{
+
+.summary-container {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     border-radius: 20px;
     border: 1px solid whitesmoke;
 }
-.thread-bulid-contaier-3{
-    background-color:whitesmoke;
+
+.thread-bulid-contaier-3 {
+    background-color: whitesmoke;
     border-radius: 20px;
     margin-top: 40px;
 }
-.sub-thread-2{
+
+.sub-thread-2 {
     border-radius: 20px;
     padding: 20px;
     font-size: 14px;
 }
-/*  */
-select{
+
+select {
     height: 50px;
     font-size: 14px;
     font-weight: bold;
@@ -418,9 +423,10 @@ select{
     border: none;
     outline: none;
 }
-option{
-   
+
+option {
 }
+
 /* Media query for footer section */
 @media (max-width:1068px){
     #footer-container{
