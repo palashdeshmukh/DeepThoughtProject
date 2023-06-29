@@ -1,26 +1,34 @@
+
+
 #wrapper-section-container {
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
+    margin:10px 0px ;
 }
 
 .asidebar {
-    width: 10%;
+    width: 15%;
 }
 
 #section-main-contentbox {
-    width: 80%;
+    width: 70%;
 }
 
 .text-section {
     /* Empty */
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #text-box1 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px;
+    margin: 30px 0px;
+    width: 100%;
 }
 
 #text-box1 h1 {
@@ -29,27 +37,33 @@
 }
 
 #text-box1 button {
-    font-size: 18px;
-    padding: 20px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 150px;
+    height: 45px;
     border-radius: 10px;
     font-weight: bold;
     border: none;
     color: white;
-    background-color: #0029FF;
+    background-color: #0029FF;  
 }
 
 #text-box2 {
     background-color: #E9ECEF;
     padding: 20px;
+    margin: 50px 0px;
+    width: 100%;
+
+
 }
 
 #text-box2 h4 {
-    font-size: 35px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
 #text-box2 p {
-    font-size: 25px;
+    font-size: 18px;
 }
 
 #Stucure-container {
@@ -63,7 +77,7 @@
 
 .section-flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     column-gap: 20px;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -74,10 +88,12 @@
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
-    max-width: 600px;
-    height: 740px;
+    max-width: 500px;
+    min-width: 320px;
+    height: 640px;
     border-radius: 20px;
     box-shadow: 0px 0px 5px 0px;
+    margin: 30px 0px;
 }
 
 #main-content-box {
@@ -100,9 +116,21 @@
     padding: 20px;
     color: white;
 }
+.container-navbar::after{
+    content: "\2139";
+    width: 35px;
+    color:black;
+    background-color:white;
+    line-height: 30px;
+    font-size: 22px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
 
 .container-navbar h2 {
     width: 100%;
+    font-size: 22px;
 }
 
 .container-navbar button {
@@ -152,14 +180,16 @@ li {
 }
 
 .parabox {
-    padding: 30px 20px;
-    font-size: 20px;
+    height: 85px;
+    text-align:left;
     line-height: 25px;
+    padding: 20px 10px;
+    font-size: 16.6px;
 }
 
 #frame {
     width: 100%;
-    height: 400px;
+    height: 350px;
     padding: 20px;
 }
 
@@ -169,16 +199,19 @@ iframe {
 }
 
 label {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
-    margin: 20px 0px 30px 0px;
+    margin: 10px 0px;
 }
 
 input[type="text"] {
-    height: 60px;
-    font-size: 22px;
-    margin: 20px 0px 30px 0px;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    padding-left:10px ;
+    margin: 10px 0px;
     text-transform: capitalize;
+    border: none;
 }
 
 textarea {
@@ -216,26 +249,49 @@ textarea {
     .for-last {
         display: none;
     }
+    #wrapper-section-container {
+        padding: 20px;
+    }
 }
 
 .asidebar {
     z-index: 1;
 }
+@media(max-width:768px){
+    .asidebar{
+        display: none;
+    }
+    #section-main-contentbox {
+width: 100%;
+    }
+#text-box1 button{
+display: block;
+margin-top: 30px;
+}
+    
+}
 
 #asidebar-container-main {
-    width: 180px;
-    height: 870px;
+    width:fit-content;
+    width: 100px;
+    height: 800px;
     box-shadow: 0px 0px 4px 0px;
     background-color: whitesmoke;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-size: 0.0001em;
+    text-indent: -9999px;
+}
+#asidebar-container-main:hover{
+    width: 485px;
+    text-indent: 1px;
+
 }
 
 .aside-text-box1 {
     background-color: black;
     color: white;
-    font-size: 0.0001em;
-    text-indent: -9999px;
+    font-family: sans-serif;
     font-size: 22px;
     height: 80px;
     line-height: 80px;
@@ -245,8 +301,6 @@ textarea {
 
 .aside-text-box2 {
     border-bottom-right-radius: 20px;
-    font-size: 0.0001em;
-    text-indent: -9999px;
 }
 
 #first-ul {
@@ -258,46 +312,50 @@ textarea {
     width: 100%;
     list-style: circle;
     text-align: left;
-    font-size: 22px;
+    font-size: 18px;
     color: black;
 }
-
-.asiderbar2-container {
-    width: 580px;
-    position: absolute;
-    right: 0;
-    height: 500px;
+#aside-right-contanier{
     display: flex;
-    flex-wrap: nowrap;
-    box-shadow: 0px 0px 5px 0px;
-    background-color: red;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    justify-content:end;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
 }
 
-.inner-box2 {
+.inner-box2{
+background-color:whitesmoke;
+width: 0%;
+max-width: 220px;
+border: 1px solid transparent;
+
+}
+.inner-box2:hover{
     width: 100%;
-    max-width: 120px;
-    border: 5px solid black;
-    background-color: whitesmoke;
-    background-color: red;
 }
 
 .inner-box1 {
+    display: flex;
+    align-items: center;
     width: 100%;
-    max-width: 80px;
-    border: 1px solid black;
+    max-width:60px;
+    writing-mode:vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
     background-color: black;
     color: white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    font-size:15px;
 }
-
-.inner-box1 h1 {
-    border: 1px solid red;
-    font-size: 25px;
-    word-wrap: break-word;
-    height: 500px;
+.inner-box1 h2{
+    margin-top: 15px;
+}
+.inner-box1::before{
+    content: "\0078";
+    color:white;
+    margin-top: 5px;
+    font-size: 50px;
 }
 
 #footer-container {
@@ -350,7 +408,8 @@ textarea {
 }
 
 .sub-thread-inner-1 {
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: bold;
     padding: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -405,7 +464,7 @@ textarea {
 .thread-bulid-contaier-3 {
     background-color: whitesmoke;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .sub-thread-2 {
@@ -415,10 +474,10 @@ textarea {
 }
 
 select {
-    height: 50px;
     font-size: 14px;
+    height: 50px;
+    width: 100%;
     font-weight: bold;
-    border-radius: 10px;
     padding: 10px;
     border: none;
     outline: none;
